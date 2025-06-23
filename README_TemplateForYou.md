@@ -98,7 +98,7 @@ for epoch in range(max_epochs):
 
 ## Screenshots
 
-![Main Interface](<!-- Uploading "main_interface.png"... -->)
+![Main Interface](https://github.com/FiratUniversity-IJDP-SoftEng/algorithms-and-programming-ii-semester-capstone-project-MahmudBekkar/blob/d254bdc340aac57ac1d33ceabe8724426bc26741/main_interface.png)
 *This screenshot shows the initial interface of the neural network visualization app.*
 
 ![Algorithm in Action](docs/screenshots/algorithm_demo.png)
