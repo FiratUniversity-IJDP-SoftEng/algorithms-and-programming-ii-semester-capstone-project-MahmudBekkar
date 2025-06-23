@@ -50,3 +50,4 @@ if st.button("Train Network"):
     st.write(nn.W2)
     st.write("Biases 2:")
     st.write(nn.b2)
+ 
