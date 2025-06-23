@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project is an interactive web application that implements and visualizes Neural Network Training, developed as part of the Algorithms and Programming II course at Fırat University, Software Engineering Department. The tool allows users to input data, configure parameters, and observe the forward propagation and weight updates in a basic neural network.
+This project is an interactive web application that implements and visualizes Neural Network Training, developed as part of the Algorithms and Programming II course at Fırat University, Software Engineering Department. The tool allows users to input data, configure parameters, and observe the forward propagation and weight updates in a basic neural network. 
 
 ## Algorithm Description
 
