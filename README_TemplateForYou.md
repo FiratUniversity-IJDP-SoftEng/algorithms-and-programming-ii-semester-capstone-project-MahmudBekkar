@@ -10,11 +10,44 @@ The goal of this project is to visually demonstrate how a simple feedforward neu
 
 ### Problem Definition
 
-[Clearly define the problem that the algorithm solves]
+
+This project addresses the challenge of understanding how a simple neural network learns to classify data through training. Specifically, it focuses on solving the XOR classification problem, which is not linearly separable and cannot be solved by basic linear models.
+The algorithm demonstrates how a feedforward neural network with one hidden layer can:
+Accept user-defined inputs and labels.
+Perform forward propagation to generate predictions.
+Calculate the error between predicted and actual values.
+Use backpropagation to adjust weights and biases.
+Improve classification accuracy through iterative learning (epochs).
+By visualizing these steps, the application helps students and beginners in artificial intelligence understand how neural networks learn complex patterns and make decisions.
+
 
 ### Mathematical Background
 
-[Explain any mathematical concepts, formulas, or notation relevant to understanding the algorithm]
+A simple feedforward neural network consists of neurons arranged in layers. Each neuron performs a weighted sum of its inputs and passes the result through an activation function.
+1. Forward Propagation
+   For an input vector x, weights W, and bias b, the output z of a neuron is calculated as:
+    z = W · x + b
+
+   Then, the neuron applies an activation function, typically the sigmoid
+  a = 1 / (1 + e^(-z))
+   This is done for each layer to compute the final output of the network
+
+
+2. Loss Function
+To measure how far the prediction is from the true label, we use a loss function. For binary classification, a common choice is binary cross-entropy or mean squared error:
+ Loss = 0.5 * (y_true - y_pred)^2
+
+3. Backpropagation
+To minimize the loss, we update the weights using gradient descent:
+ W = W - α * (∂Loss/∂W)
+
+
+α is the learning rate
+(∂Loss/∂W) is the gradient of the loss with respect to weights
+
+4. Training Process
+This process is repeated over several epochs, allowing the network to adjust its weights and biases gradually to reduce the loss and improve accuracy
+ 
 
 ### Algorithm Steps
 
@@ -44,13 +77,16 @@ for epoch in range(max_epochs):
 ### Time Complexity
 
 - **Best Case:** O(n * m) - minimal training steps
-- **Average Case:** O(n * m * epochs) - [average training requires multiple epochs]
-- **Worst Case:** O(n * m * epochs) - [maximum epochs needed for convergence]
+- **Average Case:** O(n * m * epochs) -  typical learning
+- **Worst Case:** O(n * m * epochs) - slow convergence
+  n = number of samples, m = number of neurons
 
+  
 ### Space Complexity
 
-- O(m) - memory needed for weights, activations, and gradients
+- O(m) -memory required to store weights, biases, gradients, and activations.
 
+  
 ## Features
 
 -Interactive parameter input (learning rate, epochs, etc.)
@@ -195,7 +231,7 @@ A live demo of this application is available at: [Insert Streamlit Cloud URL her
 
 -Streamlit Documentation
 -VisuAlgo - Neural Networks
--[Neural Network Tutorials - GeeksforGeeks, Towards Data Science]
+-Neural Network Tutorials - GeeksforGeeks, Towards Data Science
 
 
 ## Author
