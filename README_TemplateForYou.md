@@ -101,10 +101,13 @@ for epoch in range(max_epochs):
 ![Main Interface](https://github.com/FiratUniversity-IJDP-SoftEng/algorithms-and-programming-ii-semester-capstone-project-MahmudBekkar/blob/d254bdc340aac57ac1d33ceabe8724426bc26741/main_interface.png)
 *This screenshot shows the initial interface of the neural network visualization app.*
 
-![Algorithm in Action](docs/screenshots/algorithm_demo.png)
-*Caption describing the algorithm in action*
+![Algorithm in Action](https://github.com/FiratUniversity-IJDP-SoftEng/algorithms-and-programming-ii-semester-capstone-project-MahmudBekkar/blob/1f46598c1b86929938d2c4cb368df73a07487597/2.png)
+![](https://github.com/FiratUniversity-IJDP-SoftEng/algorithms-and-programming-ii-semester-capstone-project-MahmudBekkar/blob/1f46598c1b86929938d2c4cb368df73a07487597/3.png)
+![](https://github.com/FiratUniversity-IJDP-SoftEng/algorithms-and-programming-ii-semester-capstone-project-MahmudBekkar/blob/1f46598c1b86929938d2c4cb368df73a07487597/4.png)
+
 
 ## Installation
+
 
 ### Prerequisites
 
