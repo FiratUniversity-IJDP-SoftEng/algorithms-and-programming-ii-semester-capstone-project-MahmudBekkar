@@ -98,7 +98,7 @@ for epoch in range(max_epochs):
 
 ## Screenshots
 
-![Main Interface](docs/screenshots/main_interface.png)
+![Main Interface](<!-- Uploading "main_interface.png"... -->)
 *This screenshot shows the initial interface of the neural network visualization app.*
 
 ![Algorithm in Action](docs/screenshots/algorithm_demo.png)
