@@ -201,7 +201,7 @@ python -m unittest test_algorithm.py
 
 ## Live Demo
 
-A live demo of this application is available at: [Insert Streamlit Cloud URL here]
+A live demo of this application is available at: [https://algorithms-and-programming-ii-semester-capstone-project-mahmud.streamlit.app/]
 
 ## Limitations and Future Improvements
 
