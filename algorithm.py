@@ -10,7 +10,7 @@ class NeuralNetwork:
         self.W2 = np.random.randn(hidden_size, output_size)
         self.b2 = np.zeros((1, output_size))
         
-    def sigmoid(self, x):
+    def sigmoid(self, x): 
         return 1 / (1 + np.exp(-x))
     
     def sigmoid_derivative(self, x):
